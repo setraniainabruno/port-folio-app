@@ -13,7 +13,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       technologies: ['React', 'Node.js', 'MongoDB'],
       image: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=800',
       liveUrl: 'https://gestion-courrier-app.onrender.com',
-      githubUrl: 'https://github.com/bruno-razafimiharison/gestion-courrier',
+      githubUrl: '',
       features: [
         'Interface utilisateur moderne et responsive',
         'Gestion complète du workflow de courrier',
@@ -29,7 +29,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       technologies: ['React', 'Spring Boot', 'MongoDB'],
       image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
       liveUrl: 'https://gestion-chambre-app.onrender.com',
-      githubUrl: 'https://github.com/bruno-razafimiharison/gestion-chambre',
+      githubUrl: '',
       features: [
         'Système de réservation en temps réel',
         'Interface d\'administration complète',
@@ -44,7 +44,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       description: 'Application web pour la gestion complète des ressources et emprunts de bibliothèques',
       technologies: ['React', 'Node.js', 'PostgreSQL'],
       image: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
-      githubUrl: 'https://github.com/bruno-razafimiharison/gestion-bibliotheque',
+      
       features: [
         'Catalogue numérique des livres',
         'Gestion des emprunts et retours',
@@ -59,8 +59,8 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       description: 'Solution innovante intégrant Big Data et IA pour le suivi et la gestion des épidémies',
       technologies: ['React', 'Node.js', 'Python', 'MongoDB'],
       image: 'https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&w=800',
-      liveUrl: 'https://gestion-chambre-app.onrender.com',
-      githubUrl: 'https://github.com/bruno-razafimiharison/plateforme-epidemies',
+      liveUrl: 'https://pandemie.onrender.com',
+      githubUrl: '',
       features: [
         'Analyse prédictive avec machine learning',
         'Visualisation de données en temps réel',
@@ -240,11 +240,9 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
                       Obtenir le code
                     </a>
                   )}
-                  {(!project.githubUrl && !project.liveUrl) && (
+                  {(!project.githubUrl) && (
                     <a
                       aria-disabled
-                      href={project.githubUrl}
-                      target="_blank"
                       rel="noopener noreferrer"
                       className={`w-full py-3 px-4 rounded-lg font-medium transition-all duration-300 flex items-center justify-center group border ${isDarkMode
                         ? 'bg-gray-700 text-gray-200 hover:bg-gray-600 border-gray-600'
