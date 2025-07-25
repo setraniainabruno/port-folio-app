@@ -45,7 +45,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
             isDarkMode ? 'bg-gray-800/80' : 'bg-white/80'
           }`}>
             <MapPin className="w-6 h-6 text-blue-600 mx-auto mb-2" />
-            <p className={`text-sm ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Antanety Nord, Atsirabe II</p>
+            <p className={`text-sm ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Andrainjato, Fianarantsoa</p>
           </div>
           <div className={`backdrop-blur-sm rounded-xl p-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 ${
             isDarkMode ? 'bg-gray-800/80' : 'bg-white/80'

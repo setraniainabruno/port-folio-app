@@ -205,14 +205,12 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
       icon: Phone,
       label: 'Téléphone',
       value: '+261 33 89 871 90',
-      href: '',
       color: 'bg-green-500',
     },
     {
       icon: MapPin,
       label: 'Localisation',
-      value: 'Antanety Nord, Antsirabe II',
-      href: '#',
+      value: 'Andrainjato, Fianarantsoa',
       color: 'bg-blue-500',
     },
     {
