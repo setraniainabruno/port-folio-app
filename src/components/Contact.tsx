@@ -150,6 +150,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
         details: response.data.data
       });
     } catch (error) {
+      console.log(error);
       setEmailStatus({
         valid: false,
         error: "Échec de la vérification"
