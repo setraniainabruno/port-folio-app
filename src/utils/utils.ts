@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const api: any = () => {
   axios.create({
-    baseURL: 'http://localhost:3723/api'
+    baseURL: 'https://monportfolio-str-api.onrender.com/api'
   });
 }
 
