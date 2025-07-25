@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="bag" width="64" height="64" viewBox="0 4 32 25">
+  <g transform="translate(285 -1019.362)">
+    <rect width="2" height="1.618" x="-265" y="1025.362" fill="#cad1d8" rx="0" ry="0"></rect>
+    <path fill="none" stroke="#35424d" stroke-width="2" d="M-274 1025.362c0-1.108.892-2 2-2h6c1.108 0 2 .892 2 2"></path>
+    <rect width="2" height="1.618" x="-275" y="1025.362" fill="#cad1d8" rx="0" ry="0"></rect>
+    <rect width="4" height="2" x="-261" y="1025.362" fill="#35424d" rx="1" ry="1"></rect>
+    <rect width="4" height="2" x="-281" y="1025.362" fill="#35424d" rx="1" ry="1"></rect>
+    <rect width="30" height="21" x="-284" y="1027.362" fill="#576d7e" rx="1" ry="1"></rect>
+    <rect width="2" height="9" x="-260" y="-1048.362" fill="#2b4255" rx="0" ry="0" transform="scale(1 -1)"></rect>
+    <rect width="2" height="9" x="-280" y="-1048.362" fill="#2b4255" rx="0" ry="0" transform="scale(1 -1)"></rect>
+    <path fill="#2b4255" d="M-283.283 1027.419a.985.985 0 0 0-.717.943v8.266c4.15 1.115 7.294 1.775 10.014 1.795h9.98c2.816 0 5.773-.648 10.006-1.793v-8.268a.985.985 0 0 0-.717-.943z"></path>
+    <path fill="#4a5c6b" d="M-283.934 1026.358c-.59 0-1.066.476-1.066 1.067v7.879c4.684 1.29 8.07 2.036 11.014 2.057h9.98c3.045 0 6.185-.729 11.006-2.057v-7.88c0-.59-.475-1.066-1.066-1.066z"></path>
+    <rect width="2" height="8" x="-280" y="1026.362" fill="#2b4255" rx="0" ry="0"></rect>
+    <rect width="6" height="8" x="-282" y="1033.362" fill="#1e2e3b" fill-opacity=".213" rx=".622" ry=".553"></rect>
+    <rect width="4" height="6" x="-281" y="1034.362" fill="#e9eded" rx=".414" ry=".414"></rect>
+    <rect width="4" height="3" x="-281" y="1037.362" fill="#cad1d8" rx=".414" ry=".414"></rect>
+    <rect width="2" height="1" x="-280" y="1038.362" fill="#34485c" rx=".188" ry=".188"></rect>
+    <rect width="6" height="8" x="-262" y="1033.362" fill="#1e2e3b" fill-opacity=".213" rx=".622" ry=".553"></rect>
+    <rect width="4" height="6" x="-261" y="1034.362" fill="#e9eded" rx=".414" ry=".414"></rect>
+    <rect width="4" height="3" x="-261" y="1037.362" fill="#cad1d8" rx=".414" ry=".414"></rect>
+    <rect width="2" height="1" x="-260" y="1038.362" fill="#34485c" rx=".188" ry=".188"></rect>
+    <rect width="2" height="8" x="-260" y="1026.362" fill="#2b4255" rx="0" ry="0"></rect>
+  </g>
+</svg>
