@@ -193,6 +193,9 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
     }, 3000);
   };
 
+
+  
+
   const contactInfo = [
     {
       icon: Mail,
@@ -210,7 +213,8 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
     {
       icon: MapPin,
       label: 'Localisation',
-      value: 'Andrainjato, Fianarantsoa',
+      value: 'Ambatotokana, Fianarantsoa',
+      href:'https://maps.app.goo.gl/Z8W6HFDGaaubtMHs8',
       color: 'bg-blue-500',
     },
     {
