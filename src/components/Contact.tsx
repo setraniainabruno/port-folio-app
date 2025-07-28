@@ -366,7 +366,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
                       required
                       className={`w-full bg-transparent focus:outline-none ${isDarkMode ? 'text-white placeholder-gray-400' : 'text-gray-900'
                         }`}
-                      placeholder="votre@email.com"
+                      placeholder="votre@gmail.com"
                     />
                     {emailStatus?.loading && (
                       <Loader2 className="w-5 h-5 animate-spin text-blue-500" />
