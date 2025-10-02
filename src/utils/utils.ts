@@ -2,7 +2,8 @@ import axios from 'axios';
 
 
 export const api = axios.create({
-  baseURL: 'https://monportfolio-str-api.onrender.com/api'
+  baseURL: 'https://port-folio-api-production.up.railway.app/api'
+  // baseURL: 'https://monportfolio-str-api.onrender.com/api'
 });
 
 export const api_verify_mail = axios.create({
