@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, Calendar, Users, Code, Download } from 'lucide-react';
+import { ExternalLink, Download } from 'lucide-react';
 
 interface ProjectsProps {
   isDarkMode: boolean;
@@ -12,7 +12,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       description: 'Application web complète pour la gestion du courrier de la Commune Urbaine d\'Antsirabe',
       technologies: ['React', 'Node.js', 'MongoDB'],
       image: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=800',
-      liveUrl: 'https://gestion-courrier-app.onrender.com',
+      // liveUrl: 'https://gestion-courrier-app.onrender.com',
       githubUrl: '',
       features: [
         'Interface utilisateur moderne et responsive',
@@ -28,7 +28,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       description: 'Plateforme web pour la gestion et la réservation de chambres avec interface d\'administration',
       technologies: ['React', 'Spring Boot', 'MongoDB'],
       image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
-      liveUrl: 'https://gestion-chambre-app.onrender.com',
+      // liveUrl: 'https://gestion-chambre-app.onrender.com',
       githubUrl: '',
       features: [
         'Système de réservation en temps réel',

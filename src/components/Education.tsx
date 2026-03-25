@@ -8,13 +8,27 @@ interface EducationProps {
 const Education: React.FC<EducationProps> = ({ isDarkMode }) => {
   const educationData = [
     {
+      degree: 'Master 2 en Science des Données et Intelligence Artificielle',
+      school: 'École de Management et d\'Innovation Technologique (EMIT)',
+      period: '2025 - 2026',
+      status: 'En cours - Deuxième année',
+      description: 'Formation avancée en science des données, intelligence artificielle et ingénierie des systèmes intelligents, axée sur la modélisation, l’analyse et le déploiement de solutions basées sur les données.',
+      highlights: [
+        'Machine Learning avancé et Deep Learning',
+        'Traitement et analyse de données massives (Big Data)',
+        'Optimisation et modélisation mathématique',
+        'Développement et déploiement de solutions IA',
+      ],
+      color: 'from-green-400 to-blue-500',
+    },
+    {
       degree: 'Master en Science de Données et Intelligence Artificielle',
       school: 'École de Management et d\'Innovation Technologique (EMIT)',
       period: '2024 - 2025',
-      status: 'En cours - Première année',
+      status: 'Première année',
       description: 'Formation spécialisée en science des données, machine learning et intelligence artificielle',
       highlights: [
-        'Machine Learning et Deep Learning',
+        'Introduction au machine Learning et Deep Learning',
         'Analyse et visualisation de données',
         'Algorithmes d\'optimisation',
         'Projets pratiques en IA',

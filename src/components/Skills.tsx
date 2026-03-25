@@ -12,7 +12,7 @@ const Skills: React.FC<SkillsProps> = ({ isDarkMode }) => {
       color: 'from-blue-500 to-cyan-500',
       skills: [
         { name: 'HTML/CSS', level: 90 },
-        { name: 'JavaScript/TypeScript (React/Node.js)', level: 85 },
+        { name: 'JavaScript/TypeScript (React, Next, Express, NestJs)', level: 85 },
         { name: 'Python (Django, FastAPI)', level: 83 },
         { name: 'Java (Swing, Spring Boot)', level: 80 },
         { name: 'PHP (Laravel)', level: 70 },
@@ -45,6 +45,7 @@ const Skills: React.FC<SkillsProps> = ({ isDarkMode }) => {
       skills: [
         { name: 'Git et GitHub', level: 90 },
         { name: 'Docker', level: 70 },
+        { name: 'Postman', level: 90 },
       ],
     },
   ];
