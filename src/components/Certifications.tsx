@@ -19,7 +19,7 @@ const Certifications: React.FC<CertificationsProps> = ({ isDarkMode }) => {
     {
       title: "Certification en SQL",
       organization: "HackerRank",
-      date: "14 OCT. 2024",
+      date: "2026",
       status: "Certifié",
       description:
         "A validé ses compétences en SQL et en résolution de problèmes à travers une certification HackerRank.",
@@ -32,7 +32,7 @@ const Certifications: React.FC<CertificationsProps> = ({ isDarkMode }) => {
     {
       title: "EM!hack 3.0 – 2e Place",
       organization: "École de Management et d'Innovation Technologique (EMIT)",
-      date: "2023",
+      date: "2025",
       status: "Participant",
       description:
         "Deuxième place obtenue lors de l’événement EM!hack 3.0 grâce à la plateforme de gestion des épidémies : une solution innovante intégrant Big Data et Intelligence Artificielle pour le suivi et la gestion des épidémies.",
@@ -45,7 +45,7 @@ const Certifications: React.FC<CertificationsProps> = ({ isDarkMode }) => {
     {
       title: "Tableau d’Honneur – Licence Informatique",
       organization: "École de Management et d'Innovation Technologique (EMIT)",
-      date: "2023 - 2024",
+      date: "2024",
       status: "Lauréat",
       description:
         "Classé 3e major de la promotion en mention Informatique, parcours Développement d'Application Internet / Intranet, durant l’année universitaire 2023-2024.",
@@ -58,7 +58,7 @@ const Certifications: React.FC<CertificationsProps> = ({ isDarkMode }) => {
     {
       title: "Licence en Informatique",
       organization: "École de Management et d'Innovation Technologique (EMIT)",
-      date: "2021 - 2024",
+      date: "2024",
       status: "Diplômé",
       description:
         "Diplôme de Licence mention Informatique, parcours Développement d'Application Internet / Intranet, obtenu avec la mention Bien pour l’année universitaire 2023-2024.",
@@ -77,7 +77,7 @@ const Certifications: React.FC<CertificationsProps> = ({ isDarkMode }) => {
     {
       title: "Certification en Python 3",
       organization: "CodinGame by CoderPad",
-      date: "14 OCT. 2024",
+      date: "2024",
       status: "Certifié",
       description:
         "A validé ses compétences en résolution de problèmes avec python 3",
@@ -90,7 +90,7 @@ const Certifications: React.FC<CertificationsProps> = ({ isDarkMode }) => {
     {
       title: "EM!hack 1.0",
       organization: "École de Management et d'Innovation Technologique (EMIT)",
-      date: "28 mars au 02 avril 2022",
+      date: "2022",
       status: "Participant",
       description:
         "Pour sa participation exceptionnelle à l'événement BUILD AND PLAY",
@@ -104,7 +104,7 @@ const Certifications: React.FC<CertificationsProps> = ({ isDarkMode }) => {
     {
       title: "Diplôme de bachelier de l'enseignement secondaire",
       organization: "Lycé André Resampa Antsirabe (LARA)",
-      date: "26 avril 2021",
+      date: "2020",
       status: "Diplômé",
       description:
         "Grade de Bachelier de l'Enseignement Secondaire (Série C) obtenu avec mention",
