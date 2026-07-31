@@ -68,7 +68,7 @@ const Experience: React.FC<ExperienceProps> = ({ isDarkMode }) => {
       color: 'from-fuchsia-500 to-purple-500',
     },
     {
-      title: 'Hackathon Emichack - 2ème place',
+      title: 'Hackathon Emichack 3.0 - 2ème place',
       company: 'École de Management et d\'Innovation Technologique (EMIT)',
       period: 'Mars 2025',
       location: 'Madagascar',
